@@ -1,0 +1,50 @@
+.tetris {
+    font-size: 1rem;
+}
+
+.tetris a {
+    text-decoration: none;
+}
+
+.tetris a:hover,
+.tetris a:active {
+    color: #334466;
+}
+
+.tetris > canvas, .tetris > section {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tetris canvas {
+    border: 1px solid #000000;
+    box-shadow: #334466 0.5px 0.5px;
+    padding: 3px 3px 0px 3px;
+}
+
+.tetris > section {
+    margin-left: 1vw;
+}
+
+.tetris > section.links，.tetris li {
+    cursor: pointer;
+}
+
+.tetris li.selected {
+    font-size: 1.1rem;
+    font-weight: bold;
+    list-style-type: circle;
+}
+
+#GameContainer, #Training {
+    display: inline-block;
+}
+
+#Training th {
+    width: 50%;
+}
+
+#Training tr:nth-child(even) {
+    background-color: #e3e4e5;
+}
+
